@@ -1,0 +1,157 @@
+﻿/*Coloco el boton del menu a la izquierda*/
+.lytNav{
+
+    display:flex;
+    justify-items:left;
+}
+
+.lytNav img{
+
+    display:flex;
+    width: 160px;
+    height: 60px;
+    justify-content:space-between;
+    margin-left: 30px;
+}
+
+.lyMUsuario {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+.lyMUsuario i{
+
+    margin-left: 10px;
+    /*border: 1px solid blue;*/
+}
+
+/************************ FOOTER *******************************************************/
+
+    .lyFooter {
+
+        position:absolute;
+        bottom:0px;
+        width: 100%;
+        height: 140px;
+        margin-top: 2.5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: #d9d9d9;
+        
+
+        /*border: 1px solid red;*/
+    }
+    
+
+    .lyFooter .lyFootCont {
+        height: 100%;
+        width: 70%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+
+
+        /*border: 1px solid green;*/
+    }
+
+    .lyFootCont a, p {
+        color:black ;
+    }
+
+    .lyFootCont .lyitem{
+
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        
+        /*border: 1px solid orange;*/
+    }
+
+    .lyFootCont .lyit1{
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .lyFootCont .lyit1 p{
+
+        width: 300px;
+    }
+
+    .lyFootCont .lyit2 {
+
+        width: 350px;
+        /*margin-left:10px;*/
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+
+        /*border:1px solid red;*/
+    }
+
+    .lyit2 img{
+
+        /*border: 1px solid blue;*/
+        width: 100%;
+    }
+
+    .lyit2 .ImgGenFoot {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .lyit2 .imgChile{
+        width: 15px;
+        height: 15px;
+    }
+
+    .lyit2 .lyitAll {
+
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+        width: 100%;
+        
+    }
+
+    .lyitAll p{
+
+        font-size: 10px;
+    }
+
+    .lyit2 a:hover {
+        color: #0d5194;
+        text-decoration: none;
+    }
+
+
+
+    .lyFootCont .lyit3 {
+        display: flex;
+        flex-direction: column;
+        /*justify-content:left;*/
+        align-items: flex-start;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    } 
+
+    .lyit3 div{
+        display:flex;
+        flex-direction:row;
+
+        /*border: 1px solid red;*/
+    }
+
+
+
+
+
